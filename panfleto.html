@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Panfleto — Tecnologia e IA como Apoio ao Estudo</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+  
+    *{box-sizing:border-box;margin:0;padding:0}
+    html,body{height:100%;background:#050506;font-family:Inter,system-ui,Segoe UI,Roboto,Arial;color:#dbeef0}
+    a{color:inherit}
+
+    .container{max-width:1100px;margin:24px auto;padding:28px;position:relative}
+    .card{background:linear-gradient(180deg,#0c0e11 0%, #101216 100%);border-radius:16px;padding:22px;border:1px solid rgba(27,201,201,0.06);box-shadow:0 10px 30px rgba(2,7,11,0.7)}
+
+    .header{display:flex;gap:20px;align-items:flex-start}
+    .badge{background:linear-gradient(90deg,#0fe0d9,#00b6b6);padding:8px 14px;border-radius:12px 12px 12px 4px;font-weight:700;color:#042626;font-family:Orbitron,monospace;font-size:13px}
+    .title-area{flex:1}
+    h1{font-family:Orbitron,monospace;font-size:18px;letter-spacing:1px;color:#e6ffff}
+    .intro{margin-top:8px;color:#99d7d6;line-height:1.5}
+
+    .top-grid{display:grid;grid-template-columns:1fr 420px;gap:18px;margin-top:18px}
+    .panel{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:12px;padding:16px;border:1px solid rgba(255,255,255,0.03)}
+    .panel h2{font-size:14px;margin-bottom:8px;color:#dff7f6}
+    .panel p, .panel ul{font-size:13px;color:#cfeff0}
+    .panel ul{margin-left:16px;list-style:disc}
+
+    .section-title{display:flex;align-items:center;justify-content:center;margin:28px 0}
+    .section-title h3{background:linear-gradient(90deg,#06383a,#0e6363);padding:10px 20px;border-radius:999px;font-family:Orbitron,monospace;font-weight:700;color:#dffbfb}
+
+    .prompts-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+    .prompt-box{background:linear-gradient(180deg, rgba(2,12,12,0.45), rgba(2,8,8,0.6));padding:18px;border-radius:12px;border:1px solid rgba(8,200,200,0.06)}
+    .prompt-box ul{list-style:none;margin-top:6px}
+    .prompt-box ul li{padding:6px 0;border-bottom:1px dashed rgba(255,255,255,0.02);color:#c6eeef;font-size:14px}
+
+    .materials{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:18px}
+    .downloads{display:flex;flex-direction:column;gap:12px}
+    .download-item{display:flex;gap:12px;align-items:center;padding:12px;border-radius:10px;background:linear-gradient(90deg, rgba(7,25,25,0.35), rgba(7,12,12,0.5));border:1px solid rgba(0,200,200,0.04)}
+    .download-item .icon{width:62px;height:48px;border-radius:8px;background:linear-gradient(180deg,#062c2c,#073a39);display:flex;align-items:center;justify-content:center;font-weight:700;color:#bff7f5;font-family:Orbitron}
+    .download-item .meta{font-size:13px;color:#cfeff0}
+
+    .examples{padding:16px;border-radius:12px;background:linear-gradient(180deg, rgba(5,20,20,0.45), rgba(5,10,10,0.6));border:1px solid rgba(255,255,255,0.02)}
+    .examples ul{list-style:disc;margin-left:16px}
+
+
+    .quiz{margin-top:24px;padding:20px;border-radius:14px;background:linear-gradient(90deg,#071012,#0b1416);display:flex;align-items:center;justify-content:space-between;border:1px solid rgba(11,200,200,0.04)}
+    .quiz h4{font-family:Orbitron;font-size:16px;color:#dffcff}
+    .quiz .btn{background:linear-gradient(90deg,#0fe0d9,#00a7a7);padding:10px 16px;border-radius:8px;color:#022525;font-weight:700;text-decoration:none}
+
+    .footer{margin-top:18px;display:flex;justify-content:space-between;align-items:center;color:#7fcfcf;font-size:12px}
+
+    
+    @media (max-width:980px){
+      .top-grid{grid-template-columns:1fr}
+      .prompts-grid{grid-template-columns:1fr}
+      .materials{grid-template-columns:1fr}
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+
+      <div class="header">
+        <div class="badge">TECNOLOGIA & IA</div>
+        <div class="title-area">
+          <h1>TECNOLOGIA E INTELIGÊNCIA ARTIFICIAL COMO FERRAMENTA DE APOIO AO ESTUDO</h1>
+          <p class="intro">A Tecnologia e a Inteligência Artificial (IA) revolucionaram o ambiente educacional, transformando-se em poderosas ferramentas de apoio ao estudo. Elas oferecem recursos que personalizam a aprendizagem, otimizam o tempo e tornam o conteúdo mais acessível e engajador.</p>
+        </div>
+      </div>
+
+      <div class="top-grid">
+        <div class="panel">
+          <h2>Introdução</h2>
+          <p>Use ferramentas de IA para obter explicações, criar exercícios personalizados, resumir conteúdos e planejar estudos. A IA não substitui o estudo ativo, mas potencializa a eficiência e a organização.</p>
+
+          <h2 style="margin-top:12px">Como usar IA para estudar melhor</h2>
+          <ul>
+            <li><strong>ChatGPT</strong> — explicações e criação de exercícios</li>
+            <li><strong>Gemini</strong> — pesquisa rápida e precisa</li>
+            <li><strong>Perplexity</strong> — busca com fontes confiáveis</li>
+            <li><strong>Copilot</strong> — integração com Word, PowerPoint, Excel</li>
+            <li><strong>Khan Academy com IA</strong> — aprendizagem escolar guiada</li>
+          </ul>
+        </div>
+
+        <aside class="panel" aria-label="Destaque">
+          <h2>Recursos Rápidos</h2>
+          <p style="font-size:13px;color:#bfeff0">Prompts prontos, downloads e exemplos reais. Copie e cole essas sugestões em seu assistente de IA preferido para economizar tempo.</p>
+
+          <div style="margin-top:12px;display:flex;gap:8px;flex-direction:column">
+            <div style="padding:10px;background:rgba(0,0,0,0.25);border-radius:8px;font-weight:600;color:#dff9f8">Prompts prontos para copiar e usar</div>
+            <div style="font-size:13px;color:#cfeff0">Disponível: PDF com 50 prompts, checklist de estudo com IA, planilha de cronograma automático (Excel/Google Sheets).</div>
+          </div>
+        </aside>
+      </div>
+
+      <div class="section-title"><h3>PROMPTS PRONTOS PARA COPIAR E USAR</h3></div>
+
+      <div class="prompts-grid">
+        <div class="prompt-box">
+          <h3 style="font-size:15px;color:#dff8f8;font-family:Orbitron">PROMPTS PARA ESTUDAR MELHOR</h3>
+          <ul>
+            <li>"Explique esse conteúdo como se eu tivesse 10 anos: [TEMA]."</li>
+            <li>"Resuma este texto em 5 linhas e depois crie um mapa mental."</li>
+            <li>"Gere um plano de estudos personalizado para 2 horas por dia visando [OBJETIVO]."</li>
+            <li>"Crie 10 questões de múltipla escolha sobre: [ASSUNTO]."</li>
+            <li>"Explique com analogias do dia a dia: [TEMA]."</li>
+          </ul>
+        </div>
+
+        <div class="prompt-box">
+          <h3 style="font-size:15px;color:#dff8f8;font-family:Orbitron">PROMPTS PARA REDAÇÃO</h3>
+          <ul>
+            <li>"Revise meu texto corrigindo gramática e mantendo meu estilo."</li>
+            <li>"Sugira um parágrafo de conclusão para este tema."</li>
+            <li>"Avalie minha redação no formato ENEM e dê nota por competência."</li>
+            <li>"Liste argumentos a favor e contra sobre: [TEMA]."</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="materials" role="region" aria-label="Materiais para download e exemplos">
+        <div class="downloads">
+          <div class="download-item">
+            <div class="icon">PDF</div>
+            <div class="meta">
+              <strong><a href="https://www.perfectcorp.com/pt/consumer/blog/ai-chat/modelos-prompts-prontos" target="_blank" style="color:#bff7f5;text-decoration:underline">50 prompts educacionais prontos</a></strong>
+              <div style="font-size:12px;color:#9fdada;margin-top:6px">Arquivo PDF para consulta rápida e impressão.</div>
+            </div>
+          </div>
+
+          <div class="download-item">
+            <div class="icon">PDF</div>
+            <div class="meta">
+              <strong><a href="https://treinamentosaf.com.br/como-comecar-com-ia-hoje-checklist" target="_blank" style="color:#bff7f5;text-decoration:underline">Checklist de estudo com IAh</a></strong>
+              <div style="font-size:12px;color:#9fdada;margin-top:6px">Guia passo a passo para estruturar sessões de estudo.</div>
+            </div>
+          </div>
+
+          <div class="download-item">
+            <div class="icon">XLS</div>
+            <div class="meta">
+              <strong><a href="https://docs.google.com/spreadsheets/d/10U4zoCPUK5XNPq5PB_nU1lajvXLt0V0awlwIBWoNl1o/edit?gid=1386834576#gid=1386834576" target="_blank" style="color:#bff7f5;text-decoration:underline">Planilha (Excel / Google Sheets)</a></strong>
+              <div style="font-size:12px;color:#9fdada;margin-top:6px">Cronograma de estudos automático.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="examples">
+          <h3 style="font-size:15px;color:#dff8f8;font-family:Orbitron">EXEMPLOS REAIS DE APLICAÇÃO</h3>
+          <ul>
+            <li>Como usar IA para aprender matemática</li>
+            <li>Como usar IA para aprender línguas</li>
+            <li>Como usar IA para escrever trabalhos escolares</li>
+            <li>Como usar IA para estudar para concursos</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="quiz" style="margin-top:20px">
+        <h4>QUE TAL UM DESAFIO?</h4>
+        <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSf9gpcnB2xIjrlUlA6JwE1ZLBBB2VePAuw9PQXTbH1pFBf6hQ/viewform?usp=dialog" target="_blank">QUIZ</a>
+      </div>
+      
+</body>
+</html>
